@@ -5,7 +5,7 @@ gulp.js을 시작하기 위해 필요한 가장 기본적인 사용 방법들을
 
 #### gulp 설치하기
 
-gulp 를 사용하기에 앞서 node.js 와 npm 이 먼저 미리 설치되어 있어야 한다. node.js 와 npm 이 설치되었다면, 먼저 아래와 같이 package.json 파일을 생성해줍니다.
+gulp 를 사용하기에 앞서 node.js 와 npm 이 먼저 미리 설치되어 있어야 합니다. node.js 와 npm 이 설치되었다면, 먼저 아래와 같이 package.json 파일을 생성해줍니다.
 
 ```bash
 $ npm init
