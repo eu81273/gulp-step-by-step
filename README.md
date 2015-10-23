@@ -36,3 +36,20 @@ $ npm install gulp --save-dev
 --save-dev 옵션으로 설치해주는 이유는, 대부분 gulp 가 production 이 아닌 개발 과정에서만 필요하기 때문에, NODE_ENV 의 값이 production 인 경우 gulp가 설치되지 않도록 하기 위해서 입니다.
 
 이제 이어서 gulp의 설정 파일인 gulpfile.js 을 step1부터 차근차근 따라가며 만들어가보도록 하겠습니다.
+
+
+#### gulp 한단계식 따라해보기
+
+- [Step 1. 가장 단순한 기본 형태](https://github.com/eu81273/gulp-step-by-step/tree/master/step1_hello_world)
+- [Step 2. 기본 Task 설정하기](https://github.com/eu81273/gulp-step-by-step/tree/master/step2_default_task)
+- [Step 3. 순차적으로 Task 실행하기](https://github.com/eu81273/gulp-step-by-step/tree/master/step3_series)
+- [Step 4. JavaScript 파일 Minify 하기](https://github.com/eu81273/gulp-step-by-step/tree/master/step4_uglify)
+- [Step 5. 파일이 변경되면 자동으로 Task 실행하기](https://github.com/eu81273/gulp-step-by-step/tree/master/step5_watch)
+- [Step 6. 여러 파일 병합하기 형태](https://github.com/eu81273/gulp-step-by-step/tree/master/step6_concat)
+- [Step 7. CSS 파일 Minify 하기](https://github.com/eu81273/gulp-step-by-step/tree/master/step7_css_minify)
+- [Step 8. BrowerSync로 미니 서버를 띄워서 작업하기](https://github.com/eu81273/gulp-step-by-step/tree/master/step8_browser_sync)
+
+
+#### Gulp 를 활용하는데 도움이 되는 링크들
+- [Gulp Recipes](https://github.com/gulpjs/gulp/tree/master/docs/recipes)
+- [Gulp Cheatscheet](https://github.com/osscafe/gulp-cheatsheet)
