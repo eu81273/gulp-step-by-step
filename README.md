@@ -38,7 +38,24 @@ $ npm install gulp --save-dev
 이제 이어서 gulp의 설정 파일인 gulpfile.js 을 step1부터 차근차근 따라가며 만들어가보도록 하겠습니다.
 
 
-#### gulp 한단계식 따라해보기
+#### gulp 한 단계씩 따라해보기
+단계별로 gulpfile.js 과 약간의 더미 파일들을 구성해두었습니다. 각 단계에 대한 설명 혹은 주석을 참고해서 직접 실행도 해보고 수정도 해보면 gulp 사용법을 익히는데 도움이 될 것입니다.
+
+각 단계들을 바로 실행해보고 싶다면, 먼저 gulp-step-by-step 저장소를 아래와 같이 clone 합니다.
+
+```bash
+$ git clone https://github.com/eu81273/gulp-step-by-step.git
+```
+
+clone 받은 저장소로 이동한 후, 미리 package.json 파일에 설정해둔 디펜던시들을 설치합니다.
+
+```bash
+$ cd gulp-step-by-step
+$ npm install
+```
+
+이제 각 스텝 디렉토리로 이동해서 gulp 를 실행하면 각 예제의 결과를 확인해 볼 수 있습니다.
+
 
 - [Step 1. 가장 단순한 기본 형태](https://github.com/eu81273/gulp-step-by-step/tree/master/step1_hello_world)
 - [Step 2. 기본 Task 설정하기](https://github.com/eu81273/gulp-step-by-step/tree/master/step2_default_task)
@@ -48,7 +65,7 @@ $ npm install gulp --save-dev
 - [Step 6. 여러 파일 병합하기 형태](https://github.com/eu81273/gulp-step-by-step/tree/master/step6_concat)
 - [Step 7. CSS 파일 Minify 하기](https://github.com/eu81273/gulp-step-by-step/tree/master/step7_css_minify)
 - [Step 8. BrowerSync로 미니 서버를 띄워서 작업하기](https://github.com/eu81273/gulp-step-by-step/tree/master/step8_browser_sync)
-
+- [Step 9. Browserify로 모듈 번들링하기](https://github.com/eu81273/gulp-step-by-step/tree/master/step9_browserify)
 
 #### Gulp 를 활용하는데 도움이 되는 링크들
 - [Gulp Recipes](https://github.com/gulpjs/gulp/tree/master/docs/recipes)
