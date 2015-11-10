@@ -1,4 +1,5 @@
 /* dummy class b */
-b {
+a {
     font-size: 2em;
+    color: red;
 }

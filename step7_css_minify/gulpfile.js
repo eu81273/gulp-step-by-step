@@ -14,8 +14,7 @@ gulp.task('uglify', function () {
 //CSS 파일을 minify
 gulp.task('minifycss', function () {
     return gulp.src('src/css/main.css') //css 폴더의 main.css 파일을
-        .pipe(concat('main.css')) //포함되어 있는 @import를 분석해서 하나의 파일로 병합하고
-        .pipe(minifycss()) //minify 해서
+        .pipe(minifycss()) //포함되어 있는 @import를 분석해서 하나의 파일로 병합하고 minify 해서
         .pipe(gulp.dest('dist/css')); //dist 폴더에 저장
 });
 

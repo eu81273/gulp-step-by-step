@@ -1,6 +1,6 @@
 ## STEP 6. 파일병합
 
-앞서 gulp-uglify 플러그인을 사용해서 JavaScript 파일을 Minify할 수 있게 되었지만, 일반적으로 운영환경에서는 이렇게 Minify된 파일들을 병합해서 하나의 파일로 만들어서 배포하게 됩니다. 이런 기능을 제공해주는 대표적인 플러그인은 gulp-concat 입니다. gulp-concat 플러그인은 JavaScript 병합 뿐만 아니라 CSS 파일의 병합도 할 수 있고 CSS 파일 내의 @import 도 인식해서 최적화된 형태로 병합해줍니다. gulp-sourcemaps 플러그인과도 함께 사용할 수 있기 때문에 상당히 유용하게 사용할 수 있는 플러그인입니다.
+앞서 gulp-uglify 플러그인을 사용해서 JavaScript 파일을 Minify할 수 있게 되었지만, 일반적으로 운영환경에서는 이렇게 Minify된 파일들을 병합해서 하나의 파일로 만들어서 배포하게 됩니다. 이런 기능을 제공해주는 대표적인 플러그인은 gulp-concat 입니다. gulp-sourcemaps 플러그인과도 함께 사용할 수 있기 때문에 상당히 유용하게 사용할 수 있는 플러그인입니다.
 
 먼저 npm 을 사용해서 gulp-concat 플러그인을 설치해줍니다.
 
