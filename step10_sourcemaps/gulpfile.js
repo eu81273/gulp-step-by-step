@@ -30,6 +30,11 @@ gulp.task('minifyhtml', function () {
 gulp.task('uglify', function () {
     return browserify({entries: ['src/js/main.js'], debug: true})
         .bundle() //browserify로 번들링
+        .on('error', function (err) {
+            //browserify bundling 과정에서 오류가 날 경우 gulp가 죽지않도록 예외처리
+            console.error(err);
+            this.emit('end');
+        })
         .pipe(source('main.js')) //vinyl object 로 변환
         .pipe(buffer()) //buffered vinyl object 로 변환
         .pipe(sourcemaps.init({loadMaps: true, debug: true})) //소스맵 생성 준비
