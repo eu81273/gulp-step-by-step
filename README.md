@@ -57,15 +57,16 @@ $ npm install
 이제 각 스텝 디렉토리로 이동해서 gulp 를 실행하면 각 예제의 결과를 확인해 볼 수 있습니다.
 
 
-- [Step 1. 가장 단순한 기본 형태](https://github.com/eu81273/gulp-step-by-step/tree/master/step1_hello_world)
-- [Step 2. 기본 Task 설정하기](https://github.com/eu81273/gulp-step-by-step/tree/master/step2_default_task)
-- [Step 3. 순차적으로 Task 실행하기](https://github.com/eu81273/gulp-step-by-step/tree/master/step3_series)
-- [Step 4. JavaScript 파일 Minify 하기](https://github.com/eu81273/gulp-step-by-step/tree/master/step4_uglify)
-- [Step 5. 파일이 변경되면 자동으로 Task 실행하기](https://github.com/eu81273/gulp-step-by-step/tree/master/step5_watch)
-- [Step 6. 여러 파일 병합하기 형태](https://github.com/eu81273/gulp-step-by-step/tree/master/step6_concat)
-- [Step 7. CSS 파일 Minify 하기](https://github.com/eu81273/gulp-step-by-step/tree/master/step7_css_minify)
-- [Step 8. BrowerSync로 미니 서버를 띄워서 작업하기](https://github.com/eu81273/gulp-step-by-step/tree/master/step8_browser_sync)
-- [Step 9. Browserify로 모듈 번들링하기](https://github.com/eu81273/gulp-step-by-step/tree/master/step9_browserify)
+- [Step 01. 가장 단순한 기본 형태](https://github.com/eu81273/gulp-step-by-step/tree/master/step01_hello_world)
+- [Step 02. 기본 Task 설정하기](https://github.com/eu81273/gulp-step-by-step/tree/master/step02_default_task)
+- [Step 03. 순차적으로 Task 실행하기](https://github.com/eu81273/gulp-step-by-step/tree/master/step03_series)
+- [Step 04. JavaScript 파일 Minify 하기](https://github.com/eu81273/gulp-step-by-step/tree/master/step04_uglify)
+- [Step 05. 파일이 변경되면 자동으로 Task 실행하기](https://github.com/eu81273/gulp-step-by-step/tree/master/step05_watch)
+- [Step 06. 여러 파일 병합하기 형태](https://github.com/eu81273/gulp-step-by-step/tree/master/step06_concat)
+- [Step 07. CSS 파일 Minify 하기](https://github.com/eu81273/gulp-step-by-step/tree/master/step07_css_minify)
+- [Step 08. BrowerSync로 미니 서버를 띄워서 작업하기](https://github.com/eu81273/gulp-step-by-step/tree/master/step08_browser_sync)
+- [Step 09. Browserify로 모듈 번들링하기](https://github.com/eu81273/gulp-step-by-step/tree/master/step09_browserify)
+- [Step 10. 소스맵 사용하기](https://github.com/eu81273/gulp-step-by-step/tree/master/step10_sourcemaps)
 
 #### Gulp 를 활용하는데 도움이 되는 링크들
 - [Gulp Recipes](https://github.com/gulpjs/gulp/tree/master/docs/recipes)
