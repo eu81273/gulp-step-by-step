@@ -69,6 +69,7 @@ $ npm install
 - [Step 10. 소스맵 사용하기](https://github.com/eu81273/gulp-step-by-step/tree/master/step10_sourcemaps)
 - [Step 11. 증분 빌드 적용하기](https://github.com/eu81273/gulp-step-by-step/tree/master/step11_incremental_build)
 - [Step 12. plumber로 오류처리하기](https://github.com/eu81273/gulp-step-by-step/tree/master/step12_plumber)
+- [Step 13. runSequence로 병렬 실행하기](https://github.com/eu81273/gulp-step-by-step/tree/master/step13_run_sequence)
 
 #### Gulp 를 활용하는데 도움이 되는 링크들
 - [Gulp Recipes](https://github.com/gulpjs/gulp/tree/master/docs/recipes)
