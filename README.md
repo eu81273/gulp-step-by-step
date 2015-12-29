@@ -67,6 +67,7 @@ $ npm install
 - [Step 08. BrowerSync로 미니 서버를 띄워서 작업하기](https://github.com/eu81273/gulp-step-by-step/tree/master/step08_browser_sync)
 - [Step 09. Browserify로 모듈 번들링하기](https://github.com/eu81273/gulp-step-by-step/tree/master/step09_browserify)
 - [Step 10. 소스맵 사용하기](https://github.com/eu81273/gulp-step-by-step/tree/master/step10_sourcemaps)
+- [Step 11. 증분 빌드 적용하기](https://github.com/eu81273/gulp-step-by-step/tree/master/step11_incremental_build)
 
 #### Gulp 를 활용하는데 도움이 되는 링크들
 - [Gulp Recipes](https://github.com/gulpjs/gulp/tree/master/docs/recipes)
