@@ -10,7 +10,7 @@ gulp 는 node.js 기반의 task runner 입니다. 반복적인 귀찮은 작업�
 
 Gulp 는 스스로를 Stream 기반의 Build System 이라고 소개하고 있습니다.
 
-node.js의 event-driven, non-blocking I/O 특성을 살려 요청 후 한번에 결과를 받는 것이 아니라 이벤트로 중간중간 전달받는 방식을 stream이라고 하는데,
+요청 후 한번에 결과를 받는 것이 아니라 이벤트로 중간중간 전달받는 방식을 stream이라고 하는데,
 이 stream 을 기반으로 하고 있기 때문에 가장 node.js 의 강점을 잘 살리고 있고 실제로 작업 속도도 비교적 더 빠른 것으로 알려져 있습니다.
 
 ![gulp의 특징](./gulp03.png)
