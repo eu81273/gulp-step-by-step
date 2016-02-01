@@ -47,15 +47,15 @@ $ npm install gulp --save-dev
 $ git clone https://github.com/eu81273/gulp-step-by-step.git
 ```
 
-clone 받은 저장소로 이동한 후, 미리 package.json 파일에 설정해둔 디펜던시들을 설치합니다.
+clone 받은 저장소의 원하는 예제가 위치한 폴더로 이동한 후, package.json 파일에 설정된 디펜던시들을 설치합니다.
+디펜던시 설치가 완료된 후 각 예제의 설명을 따라 gulp 를 실행하면 예제의 결과를 확인해 볼 수 있습니다.
 
 ```bash
 $ cd gulp-step-by-step
+$ cd step01_hello_world
 $ npm install
+$ gulp hello
 ```
-
-이제 각 스텝 디렉토리로 이동해서 gulp 를 실행하면 각 예제의 결과를 확인해 볼 수 있습니다.
-
 
 - [Step 01. 가장 단순한 기본 형태](https://github.com/eu81273/gulp-step-by-step/tree/master/step01_hello_world)
 - [Step 02. 기본 Task 설정하기](https://github.com/eu81273/gulp-step-by-step/tree/master/step02_default_task)
