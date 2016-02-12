@@ -63,19 +63,20 @@ $ gulp hello
 ```
 
 
-- [Step 01. 가장 단순한 기본 형태](https://github.com/eu81273/gulp-step-by-step/tree/master/step01_hello_world)
-- [Step 02. 기본 Task 설정하기](https://github.com/eu81273/gulp-step-by-step/tree/master/step02_default_task)
-- [Step 03. 순차적으로 Task 실행하기](https://github.com/eu81273/gulp-step-by-step/tree/master/step03_series)
-- [Step 04. JavaScript 파일 Minify 하기](https://github.com/eu81273/gulp-step-by-step/tree/master/step04_uglify)
-- [Step 05. 파일이 변경되면 자동으로 Task 실행하기](https://github.com/eu81273/gulp-step-by-step/tree/master/step05_watch)
-- [Step 06. 여러 파일 병합하기 형태](https://github.com/eu81273/gulp-step-by-step/tree/master/step06_concat)
-- [Step 07. CSS 파일 Minify 하기](https://github.com/eu81273/gulp-step-by-step/tree/master/step07_css_minify)
-- [Step 08. BrowerSync로 미니 서버를 띄워서 작업하기](https://github.com/eu81273/gulp-step-by-step/tree/master/step08_browser_sync)
-- [Step 09. Browserify로 모듈 번들링하기](https://github.com/eu81273/gulp-step-by-step/tree/master/step09_browserify)
-- [Step 10. 소스맵 사용하기](https://github.com/eu81273/gulp-step-by-step/tree/master/step10_sourcemaps)
-- [Step 11. 증분 빌드 적용하기](https://github.com/eu81273/gulp-step-by-step/tree/master/step11_incremental_build)
-- [Step 12. plumber로 오류처리하기](https://github.com/eu81273/gulp-step-by-step/tree/master/step12_plumber)
-- [Step 13. runSequence로 병렬 실행하기](https://github.com/eu81273/gulp-step-by-step/tree/master/step13_run_sequence)
+- [Step 01. 가장 단순한 기본 형태](./step01_hello_world)
+- [Step 02. 기본 Task 설정하기](./step02_default_task)
+- [Step 03. 순차적으로 Task 실행하기](./step03_series)
+- [Step 04. JavaScript 파일 Minify 하기](./step04_uglify)
+- [Step 05. 파일이 변경되면 자동으로 Task 실행하기](./step05_watch)
+- [Step 06. 여러 파일 병합하기 형태](./step06_concat)
+- [Step 07. CSS 파일 Minify 하기](./step07_css_minify)
+- [Step 08. BrowerSync로 미니 서버를 띄워서 작업하기](./step08_browser_sync)
+- [Step 09. Browserify로 모듈 번들링하기](./step09_browserify)
+- [Step 10. 소스맵 사용하기](./step10_sourcemaps)
+- [Step 11. 증분 빌드 적용하기](./step11_incremental_build)
+- [Step 12. plumber로 오류처리하기](./step12_plumber)
+- [Step 13. runSequence로 병렬 실행하기](./step13_run_sequence)
+- [Step 14. React + Browserify + Babel 빌드하기](./step13_run_sequence)
 
 #### Gulp 를 활용하는데 도움이 되는 링크들
 - [Gulp Recipes](https://github.com/gulpjs/gulp/tree/master/docs/recipes)
