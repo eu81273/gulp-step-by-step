@@ -75,7 +75,7 @@ $ gulp hello
 - [Step 10. 소스맵 사용하기](./step10_sourcemaps)
 - [Step 11. 증분 빌드 적용하기](./step11_incremental_build)
 - [Step 12. plumber로 오류처리하기](./step12_plumber)
-- [Step 13. runSequence로 병렬 실행하기](./step13_run_sequence)
+- [Step 13. runSequence를 사용해서 직렬/병렬로 실행하기](./step13_run_sequence)
 - [Step 14. React + Browserify + Babel 빌드하기](./step13_run_sequence)
 
 #### Gulp 를 활용하는데 도움이 되는 링크들
