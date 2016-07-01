@@ -78,6 +78,7 @@ $ gulp hello
 - [Step 13. runSequence를 사용해서 직렬/병렬로 실행하기](./step13_run_sequence)
 - [Step 14. React + Browserify + Babel 빌드하기](./step14_react)
 - [Step 15. 다중 엔트리 React + Browserify + Watchify + Babel 빌드하기](./step15_watchify)
+- [Step 16. 수행할 작업을 메뉴에서 선택해서 실행하기](./step16_select_task)
 
 #### Gulp 를 활용하는데 도움이 되는 링크들
 - [Gulp Recipes](https://github.com/gulpjs/gulp/tree/master/docs/recipes)
