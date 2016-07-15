@@ -29,8 +29,8 @@ $ npm init
 package.json 파일이 생성되었다면, 아래와 같이 gulp 를 global 과 local 모두 설치해줍니다.
 
 ```bash
-$ npm install gulp --global
-$ npm install gulp --save-dev
+$ npm install --global gulp-cli
+$ npm install --save-dev gulp
 ```
 
 --save-dev 옵션으로 설치해주는 이유는, 대부분 gulp 가 production 이 아닌 개발 과정에서만 필요하기 때문에, NODE_ENV 의 값이 production 인 경우 gulp가 설치되지 않도록 하기 위해서 입니다.
