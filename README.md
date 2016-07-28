@@ -76,9 +76,10 @@ $ gulp hello
 - [Step 11. 증분 빌드 적용하기](./step11_incremental_build)
 - [Step 12. plumber로 오류처리하기](./step12_plumber)
 - [Step 13. runSequence를 사용해서 직렬/병렬로 실행하기](./step13_run_sequence)
-- [Step 14. React + Browserify + Babel 빌드하기](./step14_react)
+- [Step 14. Browserify 로 React 번들링하기](./step14_react)
 - [Step 15. 다중 엔트리 React + Browserify + Watchify + Babel 빌드하기](./step15_watchify)
 - [Step 16. 수행할 작업을 메뉴에서 선택해서 실행하기](./step16_select_task)
+- [Step 17. Webpack 으로 React 번들링하기 ](./step17_webpack)
 
 #### Gulp 를 활용하는데 도움이 되는 링크들
 - [Gulp Recipes](https://github.com/gulpjs/gulp/tree/master/docs/recipes)
