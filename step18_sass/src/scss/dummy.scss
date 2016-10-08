@@ -1,0 +1,25 @@
+//기본 색상
+$base-color: #777;
+$point-color: #369;
+
+h2 {
+	color: $base-color;
+	small {
+		color: lighten($base-color, 10%);
+	}
+}
+
+h3 {
+	color: darken($base-color, 10%);
+}
+
+.button {
+	border: 1px solid black;
+	&:hover {
+		background-color: $point-color;
+	}
+}
+
+a {
+	display: flex;
+}

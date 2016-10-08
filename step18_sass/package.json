@@ -1,0 +1,29 @@
+{
+  "name": "gulp-step-by-step",
+  "version": "1.0.0",
+  "description": "gulp.js 를 시작하기 위한 간단한 예제들과 설명",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eu81273/gulp-step-by-step.git"
+  },
+  "author": "AHN JAE-HA",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eu81273/gulp-step-by-step/issues"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-minify-css": "^1.2.1",
+    "gulp-minify-html": "^1.0.4",
+    "gulp-plumber": "^1.0.1",
+    "gulp-uglify": "^1.4.0",
+    "inquirer": "^1.1.0",
+    "run-sequence": "^1.1.5"
+  }
+}
